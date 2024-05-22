@@ -1,0 +1,220 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 95%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+body {
+background-color:#ffffff;
+}
+
+body {
+  font-family: Tahoma, sans-serif !important;
+}
+
+.page-header { 
+	border-color: #1f72ac;
+	color = #FFFFFF;
+}
+
+.panel-primary{
+	background-color:#eeeeee;
+}
+
+* {
+   font-size: 18px;
+   line-height: 1.428;
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color:  #0a337b; /*1f4f91;*/
+    color: white;
+
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+
+.products .caption {
+    height: 130px;
+    overflow: hidden;
+}
+.products .caption h4 {
+    white-space: nowrap;
+}
+.products .thumbnail img {
+    width: 100%;
+}
+.products .ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+.products .thumbnail {
+    padding: 0;
+}
+.products .thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 95%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+
+/*
+ .navbar {
+
+position:absolute;
+top:0px;
+z-index:10;
+width:100%;
+background-color: #e9e9e9;
+padding-right: 20px;
+font-family: 'Droid Sans', sans-serif;
+font-size: 18px; 
+color: #d3d3d3;
+} 
+*/
+
+/* Couleur des titres affichés dans la barre */
+.navbar-default .navbar-brand {
+ color: #FFFFFF;
+ text-transform: uppercase;
+}
+
+/* Couleur utilisée lors du passage de la souris sur un titre de la barre */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+ color: #AAAAAA;
+}
+
+.navbar-default {
+ /* Couleur de fond de la barre de navigation */
+ background-color: #0a337b; /*1f4f91;*/
+ border-color: #FFFFFF;
+}
+
+/* Couleur utilisée pour les liens */
+.navbar-default .navbar-nav > li > a {
+ color: #FFFFFF;
+}
+
+/* Couleur utilisée pour les liens lorsque la souris passe dessus */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+ color: #DDDDDD;
+}
+/* Couleur utilisée pour le lien actif (celui qui est affiché sur la page) */
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+ color: #EEEEEE;
+ background-color: #1f4f91; /*0a337b;*/
+}
+
+/* Version mobile, le menu devient une icône qui déroule une liste avec le menu en vertical */
+.navbar-default .navbar-toggle {
+ border-color: #FFFFFF;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+ background-color: #0a337b;
+}
+.navbar-default .navbar-toggle .icon-bar {
+ background-color: #FFFFFF;
+}
+@media (max-width: 767px) {
+ .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+ color: #000000;
+ }
+ .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+ .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+ color: #AAAAAA;
+ }
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
