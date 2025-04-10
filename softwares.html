@@ -143,10 +143,10 @@
             		<p>Time-frequency representation based on a filter bank defined from the image 
             		under study. The construction consists in two stages: <span>`(i)`</span> the extraction of supports 
             		containing the harmonic modes of the image under study and <span>`(ii)`</span> the wavelet 
-            		filters are defined by deforming a wavelet kernel using mappings estimated by 
-            		the demons algortihm so that that they cancel (or rapidly decrease) outside 
-            		the supports. The empirical wavelet coefficients correspond to the filtering of the 
-            		given image by these different filters.</p>
+            		filters <span>`\hat{\psi_n}`</span> are defined by deforming a wavelet kernel so that that they cancel 
+            		(or rapidly decrease) outside the supports. The deformation performed using mappings estimated by the demons 
+            		algortihm. The empirical wavelet coefficients <span>`\mathcal{E}_n`</span> correspond to the resulting filtering 
+            		of the given image <span>`f`</span>.</p>
             	<p align="center"><img  width="1000" class="img-responsive img-portfolio" src="images/ewt_filtering_process_en.svg" alt="" width="800px" height="300px"></p>
 					<p> Toolbox: <a href="https://github.com/jegilles/Empirical-Wavelets">Empirical Wavelets</a>
                     <br> Paper: <a href="papers/SIAM2024.pdf">C.-G. Lucas and J. Gilles (2025)</a>
