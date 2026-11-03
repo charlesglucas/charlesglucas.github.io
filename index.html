@@ -12,6 +12,13 @@
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <script async="true" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-MML-AM_SVG"> </script>
+    <style>
+        /* News cards: equal heights per row, no gaps between them */
+        .news-grid { display: flex; flex-wrap: wrap; clear: both; }
+        .news-grid > .col-md-5 { display: flex; }
+        .news-grid > .col-md-5 > .panel { flex: 1; }
+        @media (max-width: 991px) { .news-grid > .col-md-5 { width: 100%; } }
+    </style>
 </head>
 
 <body>
@@ -138,7 +145,7 @@
                     News
                 </h2>
             </div>
-            <div class="col-lg-14">
+            <div class="col-lg-14 news-grid">
 
            <div class="col-md-5">
                 <div class="panel panel-primary">
